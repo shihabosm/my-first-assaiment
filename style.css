@@ -88,7 +88,7 @@ font-weight: 700;
       width: 82%;
     max-width: 1320px;
     margin: 120px auto;
-    background-image: url(resources/Vectorrr.png);
+    background-image: url(image/background.svg);
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -124,7 +124,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
 }
-.btn{
+.join{
     color: #FFF;
 text-align: center;
 font-family: 'Inter';
@@ -154,8 +154,8 @@ text-transform: capitalize;
 text-align: center;
 justify-content: center;
 }
-.news-content span{
-    color: #F00;
+.news-content span ,h2{
+    
     text-align: center;
     font-family: 'Inter';
     font-size: 32px;
@@ -164,8 +164,13 @@ justify-content: center;
     line-height: 56px; /* 175% */
     text-transform: capitalize;
 }
-.btn-join{
-    border-radius: 8px;
+.news-content span{
+    color: #F00;
+}
+
+.btn-join  {
+font-size: 20px;
+border-radius: 8px;
 background: #F00;
 padding: 16px 32px;
 justify-content: center;
@@ -175,7 +180,6 @@ color: #FFF;
 border: 0;
 padding: 16px 32px;
 margin-left: 576px;
-
 }
 
 
@@ -196,29 +200,31 @@ margin-left: 576px;
     max-width: 325px;
 }
 .profile-items-2{
-    width:364px;
-height: 364px;
-
+width:425px;
+height: 425px;
 border-radius: 100%;
 background: url(<path-to-image>), lightgray -91.279px 0px / 150.038% 100% no-repeat;
 border: 15px solid #F00;
-
-
 }
+.profile-items-2 img{
+    margin: 30px;
+}
+
 .profile-items-3{
     max-width: 225px;
 }
-.profile-content .profile-title{
-    color: #F00;
+.profile-content .profile-title h4{
+color: #F00;
 text-align: center;
 font-family: 'Inter';
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+
 }
 .profile-content .prfile-heading{
-    color: #070211;
+color: #070211;
 font-family: 'Merriweather';
 font-size: 48px;
 font-style: normal;
@@ -235,7 +241,8 @@ font-weight: 400;
 line-height: 32px; /* 160% */
 }
 .profile-content .profile-year{
-    color: #F00;
+color: #F00;
+text-align: left;
 font-family: 'Inter';
 font-size: 48px;
 font-style: normal;
@@ -245,7 +252,7 @@ line-height: normal;
 }
 
 .profile-content .para-year{
-    color: rgba(7, 2, 17, 0.60);
+color: rgba(7, 2, 17, 0.60);
 font-family: 'Inter';
 font-size: 20px;
 font-style: normal;
@@ -272,16 +279,21 @@ line-height: 32px; /* 160% */
     font-weight: 500;
     line-height: normal;
     padding-top: 20px;
+    margin-bottom: -50px;
+    margin-top: 0px;
+    margin-bottom: 0;
     
 }
 .holiday-title-heading{
 
-        color: #070211;
+    color: #070211;
     font-family: 'Merriweather';
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    margin-bottom: 0px;
+    
 }
 .holiday-para{
     color: rgba(7, 2, 17, 0.60);
@@ -291,6 +303,9 @@ line-height: 32px; /* 160% */
     font-style: normal;
     font-weight: 500;
     line-height: 32px; 
+    width: 1068px;
+    margin-top: 0px;
+    margin-bottom: 0;
 }
 .holiday-continer{
     display: flex;
@@ -309,22 +324,36 @@ line-height: 32px; /* 160% */
 .holiday-continer .girl{
     height: 433px;
     padding: 5px;
+    padding: 5px 10px 0 84px;
 }
 .grid-container{
     max-width: 1320px;
     width: 82%;
-    margin: 100px auto;
+    margin: -278px auto;
 }
+
+img.off {
+    position: relative;
+    /* top: 10px; */
+    top: -585px;
+    left: 712px;
+    align-items: right;
+    z-index: 10;
+}
+
 .grid-container .grid-title{
     margin-bottom: 20px;
 }
  .grid-container .grid-title-heading{
-    color: #F00;
+color: #F00;
 font-family:' Inter';
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+padding-bottom: 15px;
+margin-top: 0px;
+margin-bottom: 0;
  }
   .grid-container .grid-title-summary{
     color: #070211;
@@ -334,14 +363,19 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 text-transform: capitalize;
+text-align: left;
+margin-top: 0px;
+margin-bottom: 0;
   }
 
    .grid-container .grid-para{
-    color: rgba(7, 2, 17, 0.60);
+color: rgba(7, 2, 17, 0.60);
 font-family: 'Inter';
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
+width: 896px;
+padding-bottom: 10px;
 line-height: 32px; /* 160% */
    }
   .grid-container .grid-content{
@@ -366,6 +400,8 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 text-transform: capitalize;
+margin-top: 0px;
+margin-bottom: 0;
 }
 .subscribe-section .subscribe-para{
     color: rgba(7, 2, 17, 0.60);
@@ -374,6 +410,9 @@ font-family: 'Inter';
 font-size: 20px;
 font-style: normal;
 font-weight: 400;
+padding-left: 230px;
+padding-right: 230px;
+padding-bottom: 20px;
 line-height: 32px; /* 160% */
 }
 .subscribe-section  img{
@@ -446,7 +485,9 @@ line-height: 40px; /* 166.667% */
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+    /* margin-bottom: 20px; */
 }
 .footer-concept{
     color: #FFF;
@@ -454,7 +495,7 @@ font-family: 'Inter';
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
-margin-bottom: 20px;
+/* margin-bottom: 20px; */
 /* line-height: 40px; 166.667% */
  
 }
