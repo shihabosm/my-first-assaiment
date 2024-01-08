@@ -329,7 +329,7 @@ line-height: 32px; /* 160% */
 .grid-container{
     max-width: 1320px;
     width: 82%;
-    margin: -278px auto;
+    margin: 0px auto;
 }
 
 img.off {
