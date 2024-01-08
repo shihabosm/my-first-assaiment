@@ -423,6 +423,9 @@ padding: 120px 0;
 
 
 }
+ .grid-item:hover{
+    border: 2px solid rgb(45, 45, 206);
+}
 .footer-content{
     display: flex;
     justify-content: space-between;
@@ -480,6 +483,11 @@ height: 24px;
 text-align: center;
 margin-top: 40px;
 margin-bottom: 40px;
+
+}
+.footer-container .social-link img{
+    margin-left: 24px;
+    cursor: pointer;
 }
 .footer-container .footer-para-title{
     color: #FFF;
